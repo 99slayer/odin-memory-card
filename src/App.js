@@ -1,10 +1,13 @@
 import React from 'react';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
 import './styles/App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <div>place holder</div>
+      <Header></Header>
+      <Main></Main>
     </div>
   );
 }
