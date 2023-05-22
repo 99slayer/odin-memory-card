@@ -17,8 +17,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header></Header>
-      <Main></Main>
+      <Header score={score} highScore={highScore}></Header>
+      <Main recordScore={recordScore}></Main>
     </div>
   );
 }

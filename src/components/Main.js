@@ -55,16 +55,18 @@ export const Main = (props) => {
     }
   ];
   const [cards, setCards] = useState(defaultCards);
+  const { recordScore } = props;
 
+  // shuffle on Main mount and card click
   useEffect(() => {
     shuffle(cards);
   }, []);
 
   useEffect(() => {
     shuffle(cards);
+    recordScore(clickedCards.length);
   }, [clickedCards]);
 
-  // shuffle on main mount and card click
   const shuffle = (deck) => {
     const arr = deck.slice();
 
@@ -76,10 +78,23 @@ export const Main = (props) => {
     setCards(arr);
   }
 
+  const click = (fruitType) => {
+    if (!(clickedCards.includes(fruitType))) {
+      setClickedCards(clickedCards.concat(fruitType));
+    } else {
+      // game reset
+      setClickedCards([]);
+    };
+
+    if (clickedCards.length === 12) {
+      // game reset
+      setClickedCards([]);
+    }
+  }
+
   return (
     <div id='main'>
-      {/* hopefully using type as the key prop is okay */}
-      {cards.map((card) => { return <Card key={card.type} type={card.type} image={card.image}></Card> })}
+      {cards.map((card) => { return <Card key={card.type} type={card.type} image={card.image} clickFunc={click}></Card> })}
     </div>
   )
 }
