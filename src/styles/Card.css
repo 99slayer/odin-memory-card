@@ -14,7 +14,7 @@
   transform: translate3d(0, -10px, 0);
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.596) 0px 10px 1px;
-  filter: brightness(1.2);
+  filter: brightness(1.3);
 }
 
 #banana{
@@ -35,7 +35,7 @@
 }
 #pineapple{
   border: var(--border-size) solid rgb(253, 239, 115);
-  background-size: 100%;
+  background-size: 180%;
 }
 #watermelon{
   border: var(--border-size) solid rgb(92, 212, 67);
