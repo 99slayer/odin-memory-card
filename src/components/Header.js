@@ -5,11 +5,11 @@ export const Header = (props) => {
   const { score, highScore } = props;
   return (
     <div id='header'>
-      <h1>Memory Game</h1>
-      <p>describe game rules.</p>
+      <h1 id='heading'>Memory Game</h1>
+      <p id='rules'>Try to remember the cards you have clicked.</p>
       <div id='scoreboard'>
-        <div id='current-score'>{score}</div>
-        <div id='high-score'>{highScore}</div>
+        <div id='current-score'>{`SCORE: ${score}`}</div>
+        <div id='high-score'>{`HIGH SCORE: ${highScore}`}</div>
       </div>
     </div>
   )
