@@ -1,55 +1,67 @@
 .card{
-  --border-size: 5px;
-  width: 100%;
-  height: 100%;
-  /* border: 4px solid white; */
+  --border-size: 6px;
+  justify-self: center;
+  width: 220px;
+  height: 290px;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.2s;
   border-radius: 20px;
   background-position: center center;
   background-repeat: no-repeat;
-  /* outline: 2px solid white; */
 }
 
 .card:hover{
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.596) 0px 4px 1px;
+  transform: translate3d(0, -10px, 0);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.596) 0px 10px 1px;
+  filter: brightness(1.2);
 }
 
 #banana{
   border: var(--border-size) solid rgb(255, 235, 54);
+  background-size: 140%;
 }
 #apple{
   border: var(--border-size) solid rgb(255, 52, 52);
+  background-size: 180%;
 }
 #orange{
-  border: var(--border-size) solid rgb(252, 154, 27);
+  border: var(--border-size) solid rgb(255, 152, 18);
+  background-size: 140%;
 }
 #kiwi{
-  border: var(--border-size) solid rgb(80, 212, 40);
+  border: var(--border-size) solid rgb(69, 179, 36);
+  background-size: 140%;
 }
 #pineapple{
-  border: var(--border-size) solid rgb(255, 230, 0);
+  border: var(--border-size) solid rgb(253, 239, 115);
+  background-size: 100%;
 }
 #watermelon{
-  border: var(--border-size) solid rgb(73, 170, 53);
-  background-size: 240%;
+  border: var(--border-size) solid rgb(92, 212, 67);
+  background-size: 210%;
 }
 #cherry{
   border: var(--border-size) solid rgb(182, 6, 6);
   background-size: 140%;
 }
 #peach{
-  border: var(--border-size) solid rgb(230, 129, 62);
+  border: var(--border-size) solid rgb(255, 143, 69);
   background-size: 120%;
 }
-#coconut{
-  border: var(--border-size) solid rgb(133, 87, 49);
+#raspberry{
+  border: var(--border-size) solid rgb(179, 51, 93);
+    background-size: 120%;
 }
 #mango{
-  border: var(--border-size) solid rgb(255, 163, 25);
-  background-size: 120%;
+  border: var(--border-size) solid rgb(252, 190, 21);
+  background-size: 100%;
 }
 #strawberry{
-  border: var(--border-size) solid rgb(231, 30, 30);
+  border: var(--border-size) solid rgb(255, 33, 26);
+  background-size: 140%;
 }
 #blueberry{
   border: var(--border-size) solid rgb(65, 51, 194);
+  background-size: 100%;
 }
