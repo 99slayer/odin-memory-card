@@ -23,7 +23,7 @@ export const Main = (props) => {
     },
     {
       type: 'pineapple',
-      image: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80'
+      image: 'https://images.pexels.com/photos/4110334/pexels-photo-4110334.jpeg'
     },
     {
       type: 'watermelon',
@@ -38,8 +38,8 @@ export const Main = (props) => {
       image: 'https://images.unsplash.com/photo-1570978561297-793391262fea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80'
     },
     {
-      type: 'coconut',
-      image: 'https://images.unsplash.com/photo-1560769680-ba2f3767c785?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80'
+      type: 'raspberry',
+      image: 'https://images.unsplash.com/photo-1626597825713-2cf6ad237229?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80'
     },
     {
       type: 'mango',
