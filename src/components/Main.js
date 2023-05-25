@@ -65,6 +65,10 @@ export const Main = (props) => {
   useEffect(() => {
     shuffle(cards);
     recordScore(clickedCards.length);
+
+    if (clickedCards.length === 12) {
+      setClickedCards([]);
+    }
   }, [clickedCards]);
 
   const shuffle = (deck) => {
@@ -82,14 +86,8 @@ export const Main = (props) => {
     if (!(clickedCards.includes(fruitType))) {
       setClickedCards(clickedCards.concat(fruitType));
     } else {
-      // game reset
       setClickedCards([]);
     };
-
-    if (clickedCards.length === 12) {
-      // game reset
-      setClickedCards([]);
-    }
   }
 
   return (
