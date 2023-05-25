@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/odin-memory-card/static/css/main.dd6c013d.css",
-    "main.js": "/odin-memory-card/static/js/main.eb3a83f7.js",
+    "main.js": "/odin-memory-card/static/js/main.a527c77b.js",
     "index.html": "/odin-memory-card/index.html",
     "main.dd6c013d.css.map": "/odin-memory-card/static/css/main.dd6c013d.css.map",
-    "main.eb3a83f7.js.map": "/odin-memory-card/static/js/main.eb3a83f7.js.map"
+    "main.a527c77b.js.map": "/odin-memory-card/static/js/main.a527c77b.js.map"
   },
   "entrypoints": [
     "static/css/main.dd6c013d.css",
-    "static/js/main.eb3a83f7.js"
+    "static/js/main.a527c77b.js"
   ]
 }
